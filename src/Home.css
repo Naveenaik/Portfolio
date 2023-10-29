@@ -1,0 +1,29 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+.header-text {
+  margin-top: 8%;
+  font-size: 30px;
+  /* justify-content:space-evenly; */
+  line-height: 3em;
+  
+}
+.header-text h1 {
+  margin-top: 20px;
+  font-size: 60px;
+}
+.header-text h1 span {
+  color: #ff004f;
+}
+.profile {
+  margin:8%;
+}
+.profile img {
+  height: 10cm;
+  border-radius: 15px;
+  box-shadow: 2px 2px rgb(129, 114, 114);
+  /* margin-right: 100px; */
+}
