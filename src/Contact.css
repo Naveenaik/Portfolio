@@ -1,0 +1,84 @@
+.personContact {
+  margin-top: 8%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.TextFeild {
+  margin-right: 70%;
+  text-align: left;
+  margin-right: 20%;
+  flex: 1;
+}
+.SocialMedia {
+  flex: 1;
+  text-align: left;
+}
+.TextFeild label {
+  font-size: 1.2em;
+  font-weight: 400;
+  color:#ff004f;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 10px 5px;
+  margin: 5px 0 10px;
+  box-sizing: border-box;
+  border: 0px solid;
+  border-radius: 5px;
+  background-color: #1f1f1f;
+  font-size: 1.1em;
+  color: #b9bcbc;
+  outline: none;
+}
+input[type="email"] {
+  width: 100%;
+  padding: 10px 5px;
+  margin: 5px 0 10px;
+  box-sizing: border-box;
+  border: 0px solid;
+  border-radius: 5px;
+  color: #b9bcbc;
+  background-color: #1f1f1f;
+  font-size: 1.1em;
+  outline: none;
+}
+
+.TextFeild textarea {
+  width: 100%;
+  resize: none;
+  background-color: #1f1f1f;
+  border: 0px solid;
+  border-radius: 5px;
+  margin: 5px 0 10px;
+  font-size: 1.1em;
+  padding: 10px 5px;
+  outline: none;
+  color: #b9bcbc;
+}
+input[type="submit"] {
+  background-color: #ff004f;
+  border:0px solid;
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: aliceblue;
+  outline: none;
+}
+.SocialMedia p{
+  font-size: 2em;
+  color: #ff004f;
+  margin-bottom: 25px;
+}
+.SocialMedia img {
+  height: 35px;
+  padding: 8px;
+  background-color: white;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  margin-bottom: 20px;
+}
+.SocialMedia img:hover{
+  border-radius: 100%;
+  height: 35px;
+  background-color: #99eb6d;
+}

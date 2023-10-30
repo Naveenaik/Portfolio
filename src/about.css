@@ -1,0 +1,25 @@
+.por-about{
+    margin-top: 8%;
+    text-align: left;
+}
+.objective{
+    margin-bottom: 40px;
+}
+.objective h3{
+    margin-bottom:20px ;
+    color:#ff004f;
+}
+.education{
+    line-height: 25px;
+}
+.education h3{
+    margin-bottom:20px ;
+    color:#ff004f;
+}
+.education li{
+    margin-bottom: 20px;
+}
+.education span{
+    color: #ff004f;
+    margin-left: 10px;
+}

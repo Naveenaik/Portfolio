@@ -10,7 +10,7 @@ function Home() {
             I,m <span>Naveena</span>
           <br /></h1>
           <h1>
-            from India
+            from Udupi
         </h1>
       </div>
       <div className="profile">
