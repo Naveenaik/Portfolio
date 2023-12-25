@@ -63,6 +63,7 @@ input[type="submit"] {
   padding: 5px 15px;
   color: aliceblue;
   outline: none;
+  cursor: pointer;
 }
 .SocialMedia p{
   font-size: 2em;

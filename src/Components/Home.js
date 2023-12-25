@@ -1,6 +1,6 @@
 import React from "react";
-import pro from "./images/profile.jpg";
-import "./Home.css";
+import pro from "../images/profile.jpg";
+import "../Style/Home.css";
 function Home() {
   return (
     <div className="row">

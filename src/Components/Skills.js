@@ -1,14 +1,14 @@
 import React from "react";
-import c from "./images/skills/c.png";
-import cplus from "./images/skills/c++.png";
-import css from "./images/skills/css-3.png";
-import html from "./images/skills/html.png";
-import java from "./images/skills/java.png";
-import js from "./images/skills/js.png";
-import nodejs from "./images/skills/nodejs.png";
-import python from "./images/skills/python.png";
-import react from "./images/skills/react.png";
-import "./skills.css";
+import c from "../images/skills/c.png";
+import cplus from "../images/skills/c++.png";
+import css from "../images/skills/css-3.png";
+import html from "../images/skills/html.png";
+import java from "../images/skills/java.png";
+import js from "../images/skills/js.png";
+import nodejs from "../images/skills/nodejs.png";
+import python from "../images/skills/python.png";
+import react from "../images/skills/react.png";
+import "../Style/skills.css";
 function Skills() {
   return (
     <div className="SkillsKnown">

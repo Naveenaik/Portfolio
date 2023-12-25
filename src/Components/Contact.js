@@ -1,8 +1,8 @@
 import React from "react";
-import instagram from "./images/instagram.png";
-import github from "./images/github.png";
-import linkedin from "./images/linkedin.png";
-import "./Contact.css";
+import instagram from "../images/instagram.png";
+import github from "../images/github.png";
+import linkedin from "../images/linkedin.png";
+import "../Style/Contact.css";
 function Contact() {
   return (
     <div className="personContact">

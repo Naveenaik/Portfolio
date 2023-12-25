@@ -3,10 +3,10 @@ import "./App.css";
 //import React, { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./Navbar";
-import Contact from "./Contact";
-import Skills from "./Skills";
-import About from "./About";
-import Home from "./Home";
+import Contact from "./Components/Contact";
+import Skills from "./Components/Skills";
+import About from ".//Components/About";
+import Home from "./Components/Home";
 function App() {
   return (
     <div className="App">
