@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectCard = ({ image, title, description }) => {
+const ProjectCard = ({ image, title, description,link }) => {
   return (
     <div
       data-aos="zoom-in"
@@ -17,7 +17,9 @@ const ProjectCard = ({ image, title, description }) => {
             {title}
           </h3>
           <div className="">
-          <button className="text-white bg-green-600 w-[70px] my-5 mx-2 rounded shadow p-1">view</button>
+          <a href={link} target="_blank" rel="noopener noreferrer">
+            <button className="text-white bg-green-600 w-[70px] my-5 mx-2 rounded shadow p-1">view</button>
+          </a>
           </div>
         </div>
         <p className="text-white px-2 text-justify hidden group-hover:block ">

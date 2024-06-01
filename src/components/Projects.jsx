@@ -27,7 +27,7 @@ const Projects = () => {
         <ProjectCard image={p3} title={"Calculator App"} description={"A Flutter calculator app with a user-friendly interface, standard arithmetic operations, responsive design, and optimized performance."} />
         <ProjectCard image={p1} title={"Library System Management"} description={"A responsive library system app with React, Express/Node.js, and MySQL, featuring book cataloging, user management, and inventory control."} />
         <ProjectCard image={p4} title={"Temperature Converter using Flutter"} description={"Using flutter widgets I have created temperature converter app"} />
-        <ProjectCard image={p5} title={"Task Manager"} description={"This app using the MERN stack with JWT-based authentication, featuring user registration, login, task management in MongoDB, and a responsive React interface."} />
+        <ProjectCard image={p5} link={"https://mytodofrontend.vercel.app/"} title={"Task Manager"} description={"This app using the MERN stack with JWT-based authentication, featuring user registration, login, task management in MongoDB, and a responsive React interface."} />
         <ProjectCard image={p1} title={"test"} description={"Using flutter widgets I have created temperature converter app"} />
       </div>
       
