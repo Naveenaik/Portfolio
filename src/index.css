@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-color {
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-pink-600 inline-block;
+}
+.card {
+  box-shadow: 0 2px 4px #8e8c8c, 0 2px 4px #8e8c8c;
+  border-radius: 8px;
+}
+
+.project-card {
+  box-shadow: 0 3px 5px #2c2b2b, 0 3px 5px #2c2b2b;
+  border-radius: 8px;
+}
+
+body {
+  background-color: black;
+}
+
+html{
+  scroll-behavior: smooth;
+}
