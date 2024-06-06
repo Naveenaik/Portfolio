@@ -4,10 +4,17 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import { motion, useScroll } from "framer-motion";
+
 
 function App() {
+  const { scrollYProgress } = useScroll();
   return (
     <div className="App">
+    <motion.div
+        className="fixed top-0 left-0 right-0 h-10 red-500 transform origin-left"
+        style={{ scaleX: scrollYProgress }}
+      />
       <Navbar/>
       <Hero/>
       <About/>

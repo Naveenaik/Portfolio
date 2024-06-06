@@ -17,7 +17,7 @@ const Projects = () => {
 },[]);
 
   return (
-    <div id="projects" className="bg-black text-gray-400  max-w-[1200px] mx-auto px-5 md:px-0 ">
+    <div id="projects" className="bg-black text-gray-400  max-w-[1200px] mx-auto px-5 md:px-0 md:my-0  my-16 ">
       <h2 className="text-[#ffffffcb] text-2xl md:text 4xl font-bold mt-10">
         Projects
       </h2>

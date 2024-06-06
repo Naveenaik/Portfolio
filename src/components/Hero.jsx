@@ -9,7 +9,7 @@ const Hero = () => {
 
   
   return (
-    <div className=" grid grid-cols-1 sm:grid-cols-3 gap-3 md:gap-8 h-[80vh] md:h-[83vh] w-auto mx-auto py-auto bg-black max-w-[1200px] ">
+    <div className=" grid grid-cols-1 sm:grid-cols-3 gap-3 md:gap-8 h-[75vh] md:h-[75vh] w-auto mx-auto py-auto bg-black max-w-[1200px] ">
       <div className="bg-[#7a787822] col-span-1 my-auto mx-auto w-[250px] h-auto lg:w-[300px] rounded-full ">
         <img className="rounded-full " src={heroimage} alt="Naveena Naik" />
       </div>
@@ -19,7 +19,7 @@ const Hero = () => {
           <span className="primary-color ">I'm a</span>
           <br />
           <TypeAnimation
-            sequence={["Student", 1000, "Developer", 1000, "Designer.", 500]}
+            sequence={["Student", 1000, "Quick Learner", 1000, "Designer.", 500]}
             wrapper="span"
             speed={60}
             repeat={Infinity}

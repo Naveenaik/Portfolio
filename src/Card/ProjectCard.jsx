@@ -11,7 +11,7 @@ const ProjectCard = ({ image, title, description,link,btnText }) => {
         alt=""
         className="absolute object-cover rounded blur-[1px]"
       />
-      <div className="absolute bottom-0 flex flex-col bg-[#141414]  group-hover:opacity-100 ease-in-out duration-1000 w-full ">
+      <div className="absolute bottom-0 flex flex-col bg-[#141414]  group-hover:opacity-100 ease-in-out transistion duration-1000 w-full ">
         <div className="flex">
           <h3 className="text-[#b5c83dc5] text-xl opacity-100 w-full px-2 py-3 h-[50px]">
             {title}
