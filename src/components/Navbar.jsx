@@ -25,6 +25,11 @@ const Navbar = () => {
           </a>
         </li>
         <li className="p-5">
+          <a href="#internships" className="hover:text-red-500">
+          Internships
+          </a>
+        </li>
+        <li className="p-5">
           <a href="#skills" className="hover:text-red-500">
             Skills
           </a>
@@ -58,6 +63,11 @@ const Navbar = () => {
           <li className="p-2">
             <a href="#projects" className="hover:text-red-500">
               Projects
+            </a>
+          </li>
+          <li className="p-2">
+            <a href="#internships" className="hover:text-red-500">
+            Internships
             </a>
           </li>
           <li className="p-2">

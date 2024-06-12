@@ -14,6 +14,10 @@
   box-shadow: 0 3px 5px #2c2b2b, 0 3px 5px #2c2b2b;
   border-radius: 8px;
 }
+.internship-card {
+  box-shadow: 0 3px 5px #2c2b2b, 0 3px 5px #2c2b2b;
+  border-radius: 8px;
+}
 
 body {
   background-color: black;
