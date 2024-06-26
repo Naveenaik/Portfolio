@@ -5,6 +5,11 @@
 .primary-color {
   @apply text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-pink-600 inline-block;
 }
+.text-color {
+  @apply text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-pink-600 inline-block;
+}
+
+
 .card {
   box-shadow: 0 2px 4px #8e8c8c, 0 2px 4px #8e8c8c;
   border-radius: 8px;
