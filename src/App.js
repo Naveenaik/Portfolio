@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Internship from "./components/Internship";
 import Navbar from "./components/Navbar";
@@ -23,6 +24,7 @@ function App() {
       <Internship/>
       <Skills/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

@@ -34,7 +34,7 @@ const Skills = () => {
         <h2 className='text-[#ffffffcb] text-2xl md:text 4xl font-bold mb-10'>
            Tech Stack
         </h2>
-        <div className='grid grid-cols-2 md:grid-cols-3  gap-3' >
+        <div className='grid grid-cols-2 md:grid-cols-3  gap-10 md:gap-16' >
           <div className=' border card pt-5 grid grid-cols-1' data-aos="fade-up">
               <div className=''>
                   <SiCplusplus className='text-blue-400 h-[40px] w-auto mx-auto'/>

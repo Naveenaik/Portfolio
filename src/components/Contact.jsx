@@ -42,7 +42,7 @@ const Contact = () => {
       </h2>
       <div
         data-aos="fade-right"
-        className="grid grid-cols-1 gap-10 md:grid-cols-2"
+        className="mt-5 grid grid-cols-1 gap-10 md:grid-cols-2"
       >
         <div>
           <form name="submit-to-google-sheet" onSubmit={handleSubmit}>
