@@ -16,7 +16,10 @@ const ProjectCard = ({ image, title, description,link,btnText }) => {
           <h3 className="text-[#b5c83dc5] text-xl opacity-100 w-full px-2 py-3 h-[50px]  ">
             {title}
           </h3>
-          <div className="">
+          <div className="flex">
+            <a href="">
+              <button className="text-white bg-[#c877db] w-[70px] my-5 mx-2 rounded shadow p-1">Github</button>
+            </a>
           <a href={link} target="_blank" rel="noopener noreferrer">
             <button className="text-white bg-green-600 w-[70px] my-5 mx-2 rounded shadow p-1">{btnText}</button>
           </a>
