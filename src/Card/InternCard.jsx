@@ -13,7 +13,7 @@ const InternCard = ({ image,title,link }) => {
       />
       <div className="absolute h-[300px] flex flex-col bg-[#3f3d3dca]   ease-in-out transistion duration-1000 w-full ">
         <div className="grid grid-cols-1 place-items-center ">
-          <h3 className="text-[#ffffff] text-lg md:text-xl opacity-100 pt-16 ">
+          <h3 className="text-[#ffffff] text-lg md:text-xl opacity-100 pt-16 text-center ">
             {title}
           </h3>
           <div className="">

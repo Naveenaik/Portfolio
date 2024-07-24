@@ -91,16 +91,16 @@ const Contact = () => {
           </form>
         </div>
         <div data-aos="fade-right">
-          <h2 className="mb-5">Social Media</h2>
+          <h2 className="mb-5 text-[#ff5f5f]">Social Media</h2>
           <div className="grid gap-5 grid-cols-1 md:gap-14">
-            <a href="https://www.linkedin.com/in/naveena-naik-85b04a242">
-              <FaLinkedinIn className="h-[25px] w-auto hover:text-[#ff5f5f]" />
+            <a href="https://www.linkedin.com/in/naveena-naik-85b04a242" className="flex gap-5 hover:text-[#ff5f5f]">
+              <FaLinkedinIn className="h-[25px] w-auto "  /><p>Naveena Naik</p>
             </a>
-            <a href="https://github.com/Naveenaik">
-              <FaGithub className="h-[25px] w-auto hover:text-[#ff5f5f]" />
+            <a href="https://github.com/Naveenaik" className="flex gap-5 hover:text-[#ff5f5f]">
+              <FaGithub className="h-[25px] w-auto " /><p>Naveenaik</p>
             </a>
-            <a href="https://www.instagram.com/itz_me_naveenaik/">
-              <FaInstagram className="h-[25px] w-auto hover:text-[#ff5f5f]" />
+            <a href="https://www.instagram.com/itz_me_naveenaik/" className="flex gap-5 hover:text-[#ff5f5f]">
+              <FaInstagram className="h-[25px] w-auto " /><p>naveenaik_05</p>
             </a>
           </div>
         </div>

@@ -5,7 +5,7 @@ import TT from "../assets/Certificate.jpg";
 
 const Internship = () => {
   return (
-    <div id="internships" className="bg-black  text-gray-400  max-w-[1200px] mx-auto pt-10  px-5 md:px-4">
+    <div id="internships" className="bg-black  text-gray-400  max-w-[1200px] mx-auto md:pt-10   px-5 md:px-4">
       <h2 className="text-[#ffffffcb] text-2xl md:text 4xl font-bold mt-10">
         Internships
       </h2>

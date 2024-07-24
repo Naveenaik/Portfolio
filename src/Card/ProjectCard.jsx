@@ -4,7 +4,7 @@ const ProjectCard = ({ image, title, description,link,btnText,gitlink }) => {
   return (
     <div
       data-aos="zoom-in"
-      className="bg-white relative group w-full h-[190px] overflow-hidden rounded md:h-[210px] select-none hover:scale-105 md:hover:scale-110 hover:ease-in duration-300 project-card"
+      className=" relative group w-full h-[190px] overflow-hidden rounded md:h-[210px] select-none hover:scale-105 md:hover:scale-110 hover:ease-in duration-300 project-card"
     >
       <img
         src={image}
