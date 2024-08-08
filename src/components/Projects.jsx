@@ -25,7 +25,7 @@ const Projects = () => {
       </h2>
       <br />
       <div className="grid grid-cols-1 gap-10 md:grid-cols-3 ">
-        <ProjectCard image={p2} btnText={"Demo"} title={"Team Tracker"} description={"Building the Team Tracker app for small businesses to monitor employees with real-time updates and secure authentication."} />
+        <ProjectCard image={p2} btnText={"Demo"} link={"https://drive.google.com/file/d/1wEveVNDBul03tZMezSPFpyWOEGPd1Ir1/view?usp=sharing"} title={"Team Tracker"} description={"Building the Team Tracker app for small businesses to monitor employees with real-time updates and secure authentication."} />
         <ProjectCard image={p3} btnText={"Demo"} title={"Calculator App"} description={"A Flutter calculator app with a user-friendly interface, standard arithmetic operations, responsive design, and optimized performance."} />
         <ProjectCard image={p1} btnText={"View"} gitlink={"https://github.com/Naveenaik/Library-System-Management"} title={"Library System Management"} description={"A responsive library system app with React, Express/Node.js, and MySQL, featuring book cataloging, user management, and inventory control."} />
         <ProjectCard image={p4} btnText={"Demo"} title={"Temperature Converter"} description={"Using flutter widgets I have created temperature converter app"} />
