@@ -16,10 +16,11 @@ import { SiMongodb } from "react-icons/si";
 
 import { FaPython } from "react-icons/fa";  
 
-// import { SiDart } from "react-icons/si";
+import { SiDart } from "react-icons/si";
 import { SiFlutter } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
-
+import { SiDjango } from "react-icons/si";
+import { SiSelenium } from "react-icons/si";
 
 
 const Skills = () => {
@@ -127,10 +128,37 @@ const Skills = () => {
           </div>
           <div className=' border card pt-5 grid grid-cols-1' data-aos="fade-up">
               <div>
+                  <SiDart className='text-[#49c2f2]  h-[40px] w-auto mx-auto' />
+              </div>
+              <div className='text-justify p-2'>
+                  Dart
+              </div>
+              {/* <button className='p-2 bg-[#3eb66c95] m-3 rounded text-[#ffffffc7] hover:bg-[#3e74b6f3]' disabled>Certificate</button> */}
+          </div>
+          <div className=' border card pt-5 grid grid-cols-1' data-aos="fade-up">
+              <div>
                   <SiMysql className='text-[#49c2f2]  h-[40px] w-auto mx-auto' />
               </div>
               <div className='text-justify p-2'>
                   Relation database
+              </div>
+              {/* <button className='p-2 bg-[#3eb66c95] m-3 rounded text-[#ffffffc7] hover:bg-[#3e74b6f3]' disabled>Certificate</button> */}
+          </div>
+          <div className=' border card pt-5 grid grid-cols-1' data-aos="fade-up">
+              <div>
+                  <SiDjango className='text-[#257f22]  h-[40px] w-auto mx-auto' />
+              </div>
+              <div className='text-justify p-2'>
+                  Django
+              </div>
+              {/* <button className='p-2 bg-[#3eb66c95] m-3 rounded text-[#ffffffc7] hover:bg-[#3e74b6f3]' disabled>Certificate</button> */}
+          </div>
+          <div className=' border card pt-5 grid grid-cols-1' data-aos="fade-up">
+              <div>
+                  <SiSelenium className='text-[#55c92b]  h-[40px] w-auto mx-auto' />
+              </div>
+              <div className='text-justify p-2'>
+                  Selenium for automation testing
               </div>
               {/* <button className='p-2 bg-[#3eb66c95] m-3 rounded text-[#ffffffc7] hover:bg-[#3e74b6f3]' disabled>Certificate</button> */}
           </div>
