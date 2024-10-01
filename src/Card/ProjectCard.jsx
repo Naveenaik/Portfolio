@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProjectCard = ({ image, title, description,link,btnText,gitlink }) => {
+const ProjectCard = ({ image, title, description,link,btnText,gitlink,cursor }) => {
   return (
     <div
       data-aos="zoom-in"
@@ -21,7 +21,7 @@ const ProjectCard = ({ image, title, description,link,btnText,gitlink }) => {
               <button className="text-white bg-[#c877db] w-[70px] my-5 mx-2 rounded shadow p-1">Github</button>
             </a>
           <a href={link} target="_blank" rel="noopener noreferrer">
-            <button className="text-white bg-green-600 w-[70px] my-5 mx-2 rounded shadow p-1">{btnText}</button>
+            <button className={`text-white bg-green-600 w-[70px] my-5 mx-2 rounded shadow p-1 ${cursor}`}>{btnText}</button>
           </a>
           </div>
         </div>

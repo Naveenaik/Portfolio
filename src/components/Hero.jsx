@@ -2,7 +2,7 @@ import React from "react";
 
 import heroimage from "../assets/profile.png";
 
-import pdf from "../assets/Resume.pdf"
+import pdf from "../assets/NAVEENA.pdf"
 
 import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
