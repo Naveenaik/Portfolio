@@ -23,7 +23,7 @@ const About = () => {
                     <li>
                         <b>A.J. Institute of Engineering and Technology, Mangaluru</b>
                         <br />
-                        B.E (Information Science and Engineering)
+                        B.E (Information Science and Engineering) - Ongoing
                     </li>
                     <li className='mt-7'>
                         <b>Viveka Pre-University College, Kota, Udupi </b><span className='text-red-400'>(2021)</span>

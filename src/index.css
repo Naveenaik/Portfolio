@@ -31,3 +31,12 @@ body {
 html{
   scroll-behavior: smooth;
 }
+.shadow-custom {
+  box-shadow: 0 1px 6px rgba(198, 197, 197, 0.897);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.shadow-none {
+  box-shadow: none; /* Ensure no shadow */
+  transition: box-shadow 0.3s ease-in-out; /* Add transition */
+}

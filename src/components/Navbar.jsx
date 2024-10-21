@@ -1,20 +1,38 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const [scrolling, setScrolling] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
   };
-  //max-w-[1200px]
+
+  const handleScroll = () => {
+    if (window.scrollY > 0) {
+      setScrolling(true);
+    } else {
+      setScrolling(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="bg-black text-gray-400 h-[100px] max-w-[1300px] mx-auto flex justify-between items-center sticky top-0 z-10 ">
+    <div
+      className={`bg-black text-gray-400 h-[80px] max-w-[1300px] mx-auto flex justify-between items-center sticky top-0 z-10 rounded-lg ${scrolling ? 'shadow-custom' : 'shadow-none'}`}
+    >
       <h1 className="text-3xl font-bold primary-color ml-5 animate-pulse">
         Naviam
       </h1>
       <ul className="hidden md:flex">
-        <li className="p-5  ">
+        <li className="p-5">
           <a href="#about" className="hover:text-red-500">
             About
           </a>
@@ -26,7 +44,7 @@ const Navbar = () => {
         </li>
         <li className="p-5">
           <a href="#internships" className="hover:text-red-500">
-          Internships
+            Internships
           </a>
         </li>
         <li className="p-5">
@@ -34,7 +52,6 @@ const Navbar = () => {
             Skills
           </a>
         </li>
-
         <li className="p-5">
           <a href="#contact" className="hover:text-red-500">
             Contact
@@ -54,12 +71,11 @@ const Navbar = () => {
       >
         <h1 className="p-5 text-3xl font-bold primary-color ml-4">Naviam</h1>
         <ul className="p-8 text-xl grid grid-cols-1 gap-5">
-          <li className="p-2 ">
+          <li className="p-2">
             <a href="#about" className="hover:text-red-500">
               About
             </a>
           </li>
-
           <li className="p-2">
             <a href="#projects" className="hover:text-red-500">
               Projects
@@ -67,7 +83,7 @@ const Navbar = () => {
           </li>
           <li className="p-2">
             <a href="#internships" className="hover:text-red-500">
-            Internships
+              Internships
             </a>
           </li>
           <li className="p-2">

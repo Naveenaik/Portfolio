@@ -35,7 +35,8 @@ const Hero = () => {
        bg-gradient-to-br from-orange-500 to-pink-500
         text-white"
           download>
-            Download CV
+            Check my Resume
+
           </a>
           <a
             href="#contact"
