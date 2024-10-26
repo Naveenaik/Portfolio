@@ -92,7 +92,7 @@ const Skills = () => {
           </div>
           <div className=' border card pt-5 grid grid-cols-1' data-aos="fade-up">
               <div>
-                  <DiNodejs className='text-[#68f54f] h-[40px] w-auto mx-auto' />
+                  <DiNodejs className='text-[#68f54f] h-[40px] w-auto mx-   auto' />
               </div>
               <div className='text-justify p-2'>
                   Different node modules

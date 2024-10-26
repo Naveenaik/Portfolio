@@ -26,7 +26,9 @@ const Navbar = () => {
 
   return (
     <div
-      className={`bg-black text-gray-400 h-[80px] max-w-[1300px] mx-auto flex justify-between items-center sticky top-0 z-10 rounded-lg ${scrolling ? 'shadow-custom' : 'shadow-none'}`}
+      className={`bg-black text-gray-400 h-[80px] max-w-[1300px] mx-auto flex justify-between items-center sticky top-0 z-10  ${
+        scrolling ? "shadow-custom" : "shadow-none"
+      }`}
     >
       <h1 className="text-3xl font-bold primary-color ml-5 animate-pulse">
         Naviam
