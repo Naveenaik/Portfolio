@@ -12,6 +12,7 @@ import p4 from "../assets/TC.png";
 import p5 from "../assets/todo.png";
 import p6 from "../assets/ecommerce.png";
 import p7 from "../assets/DealsDray.png";
+import p8 from "../assets/OnlineReservation.png";
 const Projects = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -52,10 +53,12 @@ const Projects = () => {
         />
         <ProjectCard
           image={p1}
-          btnText={"View"}
+          btnText={"Demo"}
           gitlink={"https://github.com/Naveenaik/Library-System-Management"}
+          link={
+            "https://drive.google.com/file/d/1FJH7Y64Bnk5yJ1AVkU9LYEuy1IzETkX0/view?usp=sharing"
+          }
           title={"Library System Management"}
-          v_cursor={"cursor-not-allowed"}
           description={
             "A responsive library system app with React, Express/Node.js, and MySQL, featuring book cataloging, user management, and inventory control."
           }
@@ -63,6 +66,7 @@ const Projects = () => {
         <ProjectCard
           image={p4}
           btnText={"Demo"}
+          v_cursor={"cursor-not-allowed"}
           gitlink={
             "https://github.com/Naveenaik/Bharat_Intern/tree/master/Task2"
           }
@@ -101,12 +105,25 @@ const Projects = () => {
             <>
               A task assigned by the DealsDray as part of the machine test of
               the code
-              <span className="text-sm text-gray-600">{" "}enter these dummy username: DealsDray</span>
+              <span className="text-sm text-gray-600">
+                {" "}
+                enter these dummy username: DealsDray
+              </span>
               <span className="text-sm text-gray-600">
                 {" "}
                 dummy_password: Hell0@123 to access.
               </span>
             </>
+          }
+        />
+        <ProjectCard
+          image={p8}
+          btnText={"Demo"}
+          gitlink={"https://github.com/Naveenaik/OIBSIP/tree/main/ONLINE_RESERVATION_SYSTEM"}
+          link={"https://www.linkedin.com/posts/naveena-naik-85b04a242_i-am-thrilled-to-share-that-i-have-built-activity-7249091881916112896-TeF2?utm_source=share&utm_medium=member_desktop"}
+          title={"Online Reservation System"}
+          description={
+            "A java web application used to reserve the train ticket and manage the reserved tickets. This is created using Servlet, PostgreSQL and with Tomcat server."
           }
         />
       </div>
