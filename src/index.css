@@ -40,3 +40,6 @@ html{
   box-shadow: none; /* Ensure no shadow */
   transition: box-shadow 0.3s ease-in-out; /* Add transition */
 }
+.section {
+  scroll-margin-top: 80px; /* Adjust based on navbar height */
+}

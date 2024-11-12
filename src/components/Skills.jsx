@@ -31,7 +31,7 @@ const Skills = () => {
     },[]);
 
   return (
-    <div id='skills' className='bg-black text-gray-400  max-w-[1200px] mx-auto pt-10  px-5 md:px-4'>
+    <div id='skills' className='section bg-black text-gray-400  max-w-[1200px] mx-auto pt-3  px-5 md:px-4'>
         <h2 className='text-[#ffffffcb] text-2xl md:text 4xl font-bold mb-10'>
            Tech Stack
         </h2>
