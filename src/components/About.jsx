@@ -10,7 +10,7 @@ const About = () => {
     },[]);
 
   return (
-    <div id="about" className="section px-10bg-black text-gray-400  max-w-[1200px] w-auto mx-auto mt-[20px] px-5 md:px-4 h-[75vh] pt-3  md:h-[70vh]">
+    <div id="about" className="section px-10bg-black text-gray-400  max-w-[1200px] w-auto mx-auto mt-[20px] px-5 md:px-4 pt-3 h-[75vh] md:h-[70vh]">
         <h2 className="text-[#ffffffcb] text-2xl md:text 4xl font-bold mb-5">About</h2>
         <div data-aos="fade-up">
             <div>

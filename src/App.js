@@ -6,6 +6,7 @@ import Internship from "./components/Internship";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import ScrollToTop from "./components/ScrollToTop";
 import { motion, useScroll } from "framer-motion";
 
 
@@ -25,6 +26,7 @@ function App() {
       <Skills/>
       <Contact/>
       <Footer/>
+      <ScrollToTop />
     </div>
   );
 }

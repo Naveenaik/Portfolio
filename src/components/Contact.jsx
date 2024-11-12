@@ -6,14 +6,17 @@ import "aos/dist/aos.css";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+import { FaHackerrank } from "react-icons/fa";
 
 const Contact = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
 
-    const scriptURL = "https://script.google.com/macros/s/AKfycbz8YBVPkVUXq6txUKDK2pRQC3Hpz1pOKlFKriGkW8txO15eoVmpwhlk16wjidmnO-Tr/exec";
-    const handleSubmit = (e) => {
+  const scriptURL =
+    "https://script.google.com/macros/s/AKfycbz8YBVPkVUXq6txUKDK2pRQC3Hpz1pOKlFKriGkW8txO15eoVmpwhlk16wjidmnO-Tr/exec";
+  const handleSubmit = (e) => {
     e.preventDefault();
     const form = new FormData(e.target);
 
@@ -21,16 +24,14 @@ const Contact = () => {
 
     fetch(scriptURL, { method: "POST", body: form })
       .then((response) => {
-        msg.innerHTML="Message sent successfully"
-        setTimeout(()=>{
-          msg.innerHTML=""
-        },5000)
-        e.target.reset()
-        })
+        msg.innerHTML = "Message sent successfully";
+        setTimeout(() => {
+          msg.innerHTML = "";
+        }, 5000);
+        e.target.reset();
+      })
       .catch((error) => console.error("Error!", error.message));
   };
-
-
 
   return (
     <div
@@ -90,19 +91,52 @@ const Contact = () => {
             </button>
           </form>
         </div>
-        <div data-aos="fade-right">
-          <h2 className="mb-5 text-[#ff5f5f]">Social Media</h2>
-          <div className="grid gap-5 grid-cols-1 md:gap-14">
-            <a href="https://www.linkedin.com/in/naveena-naik-85b04a242" className="flex gap-5 hover:text-[#ff5f5f]">
-              <FaLinkedinIn className="h-[25px] w-auto "  /><p>Naveena Naik</p>
-            </a>
-            <a href="https://github.com/Naveenaik" className="flex gap-5 hover:text-[#ff5f5f]">
-              <FaGithub className="h-[25px] w-auto " /><p>Naveenaik</p>
-            </a>
-            <a href="https://www.instagram.com/itz_me_naveenaik/" className="flex gap-5 hover:text-[#ff5f5f]">
-              <FaInstagram className="h-[25px] w-auto " /><p>naveenaik_05</p>
-            </a>
+        <div data-aos="fade-right" className="grid grid-cols-2 gap-10">
+          <div>
+            <h2 className="mb-5 text-[#ff5f5f]">Social Media</h2>
+            <div className="grid gap-5 grid-cols-1 md:gap-14">
+              <a
+                href="https://www.linkedin.com/in/naveena-naik-85b04a242"
+                className="flex gap-5 hover:text-[#ff5f5f]"
+              >
+                <FaLinkedinIn className="h-[25px] w-auto " />
+                <p>Naveena Naik</p>
+              </a>
+              <a
+                href="https://github.com/Naveenaik"
+                className="flex gap-5 hover:text-[#ff5f5f]"
+              >
+                <FaGithub className="h-[25px] w-auto " />
+                <p>Naveenaik</p>
+              </a>
+              <a
+                href="https://www.instagram.com/itz_me_naveenaik/"
+                className="flex gap-5 hover:text-[#ff5f5f]"
+              >
+                <FaInstagram className="h-[25px] w-auto " />
+                <p>naveenaik_05</p>
+              </a>
+            </div>
           </div>
+          <div>
+              <h2 className="mb-5 text-[#ff5f5f]">Other platforms</h2>
+              <div className="grid gap-5 grid-cols-1 md:gap-14">
+                <a
+                  href="https://leetcode.com/u/naveenaik/"
+                  className="flex gap-5 hover:text-[#ff5f5f]"
+                >
+                  <SiLeetcode className="h-[25px] w-auto " />
+                  <p>naveenaik</p>
+                </a>
+                <a
+                  href="https://www.hackerrank.com/profile/Naveenaik"
+                  className="flex gap-5 hover:text-[#ff5f5f]"
+                >
+                  <FaHackerrank className="h-[25px] w-auto " />
+                  <p>Naveenaik</p>
+                </a>
+              </div>
+            </div>
         </div>
       </div>
     </div>

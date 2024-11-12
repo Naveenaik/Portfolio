@@ -6,7 +6,7 @@ import Ten from "../assets/10seconds.jpg"
 
 const Internship = () => {
   return (
-    <div id="internships" className="section bg-black  text-gray-400  max-w-[1200px] mx-auto pt-3  px-5 md:px-4">
+    <div id="internships" className="section bg-black  text-gray-400  max-w-[1200px] mx-auto px-5 md:px-4">
       <h2 className="text-[#ffffffcb] text-2xl md:text 4xl font-bold mt-10">
         Internships
       </h2>
