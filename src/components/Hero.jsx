@@ -2,7 +2,6 @@ import React from "react";
 
 import heroimage from "../assets/profile.png";
 
-import pdf from "../assets/NAVEENA.pdf"
 
 import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
@@ -30,11 +29,11 @@ const Hero = () => {
         </p>
         <div className="my-8">
           <a
-            href={pdf}
+            href="https://drive.google.com/file/d/1M3tXRLOTgv1SeTa1xr0avLsBIPD18nPl/view?usp=sharing"
             className="px-6 py-3 w-full rounded-xl mr-4 
        bg-gradient-to-br from-orange-500 to-pink-500
         text-white"
-          download>
+          >
             Check my Resume
 
           </a>
