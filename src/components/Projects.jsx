@@ -31,11 +31,12 @@ const Projects = () => {
         <ProjectCard
           image={p2}
           btnText={"Demo"}
+          gitlink={"https://github.com/Naveenaik/Team-Tracker"}
           link={
             "https://drive.google.com/file/d/1wEveVNDBul03tZMezSPFpyWOEGPd1Ir1/view?usp=sharing"
           }
           title={"Team Tracker"}
-          g_cursor={"cursor-not-allowed"}
+          // g_cursor={"cursor-not-allowed"}
           description={
             "Building the Team Tracker app for small businesses to monitor employees with real-time updates and secure authentication."
           }
